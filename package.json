@@ -1,0 +1,35 @@
+{
+  "name": "wmf2image",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {},
+  "unpkg": "",
+  "jsdelivr": "",
+  "files": [
+    "dist"
+  ],
+  "browser": {},
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node ./src/index.ts",
+    "start": "node ./dist/index.js"
+  },
+  "keywords": [
+    "wmf",
+    "image",
+    "office",
+    "word"
+  ],
+  "author": "sihun",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "next",
+    "typescript": "next"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sihun0105/wmf2image.git"
+  }
+}
