@@ -1,11 +1,13 @@
 {
   "compilerOptions": {
+    "module": "ESNext",
     "outDir": "./dist",
     "rootDir": "./src",
     "target": "ES2016",
-    "module": "CommonJS",
     "declaration": true,
-    "strict": true
+    "strict": true,
+    "typeRoots": ["./node_modules/@types", "./src/types"],
+    "allowSyntheticDefaultImports": true
   },
   "include": ["src"],
   "exclude": ["node_modules", "dist"]
